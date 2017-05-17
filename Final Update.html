@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bushi</title>
+    <link rel="stylesheet" href="style/data.css" type="text/css"/>
+    <script src="javascript/init.js" type="text/javascript"></script>
+    <script src="javascript/rentalHouses.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div id="climate">
+      <p></p>
+    </div>
+    <div id="title">
+      <h1>Bushi</h1>
+    </div>
+    <div id="moreInfoClimate">
+      <p></p>
+    </div>
+    <div id="subtitle">
+      <h3>Hi! We are Bushi, a software that thinks about your student lodging needs.</h3>
+    </div>
+    <div id="about">
+      <p></p>
+    </div>
+    <div id="info">
+      <p>Developed by Universitary Students, Bushi focus on three main aspects: efficiency, 
+         simplicity and reliability.</p>
+      <p>We found that the users need the easiest and optimal solutions to find the best 
+         place to live according to their own criteria of safety, confort and affordability.</p>
+    </div>
+    <div id="map"></div>
+    <div id="select">
+      <button onclick="rentalHouses()" class="button">Show Houses</button>
+    </div>
+    <div id="data">
+      <p></p>
+    </div>
+    <div id="other">
+      <p>Developed by Phoenixest</p>
+    </div>
+  </body>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlG7fuSr2ZsuffPG-Koz50fJTKrqiNVbI&callback=initMap">
+  </script>
+</html>

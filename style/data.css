@@ -1,0 +1,51 @@
+      body {
+        margin: 0;
+      }
+
+      #title, #subtitle, #info {
+        width: 75%;
+        height:100px;
+        margin-left: 0%;
+        overflow: auto;
+      }
+
+      #title {
+        text-align:center;
+      }
+
+      #climate, #moreInfoClimate, #about {
+        width: 25%;
+        height: 100px;
+        margin-left: 75%;
+        overflow: auto;
+        position: absolute;
+      }
+
+      #select {
+        width: 40%;
+        height: 50px;
+	text-align: center;
+
+      }
+
+      #data {
+        width: 40%;
+        height: 450px;
+        margin-left: 5%
+      }
+
+      #map {
+        width: 43%;
+        height: 500px;
+        background-color: grey;
+        margin-left: 50%;
+        overflow: auto;
+        position: absolute;
+      }
+
+      #other {
+        width: 100%;
+        height: 100px;
+        background-color: cyan;
+        margin-left: 0%;
+      }
